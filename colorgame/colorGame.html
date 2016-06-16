@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <title>Color Game</title>
+    <link rel="stylesheet" type="text/css" href="colorGame.css">
+</head>
+
+<body>
+
+    <div id="workarea">	
+        <div>
+            <p>Step: <span id="step"></span></p>
+            <p>Correct: <span id="countCorrect"></span> out of <span id="totalSteps"></span></p>
+            <button id="resetButton" class="hidden" onclick="resetGame()">Start Over!</button>
+        </div>
+        <div class="square">
+            <div class="content">
+                <div class="table">
+                    <div id="cell1"></div>
+                </div>
+            </div>
+        </div>
+        <div class="square">
+            <div class="content">
+                <div class="table">
+                    <div id="cell2"></div>
+                </div>
+            </div>
+        </div>
+        <div class="square">
+            <div class="content">
+                <div class="table">
+                    <div id="cell3"></div>
+                </div>
+            </div>
+        </div>
+        <div class="square">
+            <div class="content">
+                <div class="table">
+                    <div id="cell4"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="colorGame.js"></script>
+
+</body>
+
+</html>

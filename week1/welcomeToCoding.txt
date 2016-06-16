@@ -1,0 +1,31 @@
+                      Welcome To The World Of Coding
+    
+    Definitions:
+    
+    IDE - Integrated Development Environment
+
+    Server - A software program that responds to requests made by browsers.
+
+    Browser - A software program that sends requests to a server and receives responses in return.
+
+    HyperText Transfer Protocol (HTTP) - The rules for communicating between server and browser.
+    
+    GET /index.html HTTP/1.1
+    Host: c9.io
+    User-Agent: Firefox/5.0 
+    Accept: text/html
+    Accept-Language: en-us
+    Cookie: PHPSESSID=r2t5uvjq435r4q7ib3vtdjq120
+    
+    Keyboard shortcuts:
+    
+    CTRL+o - Open a file.
+    CTRL+s - Save files.
+    CTRL+a - Select ALL in the open file.
+    CTRL+c - Copy the text that's been highlighted.
+    CTRL+x - Cut the text that's been highlighted.
+    CTRL+v - Paste the text that's in the clipboard.
+    CTRL+TAB - Switch between open tabs in IDE.
+    CTRL+r - Reload web page in browser.
+    TAB - Indent highlighted text.
+    SHIFT+TAB - Un-indent highlighted text.
